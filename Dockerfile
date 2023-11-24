@@ -7,4 +7,4 @@ COPY ./testapp
 #install the dependencies
 RUN apt-get update && apt-get install -y python3 python3-pip
 #command to start the applocaiton
-CMD ["python3", "app.py"
+CMD ["python3", "app.py"]
